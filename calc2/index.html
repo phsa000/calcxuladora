@@ -10,9 +10,9 @@
     <div class="calculadora">
         <input type="text" id="display" disabled>
         <div class="botoes">
-            <button class="especial" onclick="limparDisplay()">C</button> <!-- Adicionando a classe especial -->
-            <button class="especial" onclick="anexarOperador('±')">±</button> <!-- Adicionando a classe especial -->
-            <button class="especial" onclick="anexarOperador('%')">%</button> <!-- Adicionando a classe especial -->
+            <button class="especial" onclick="limparDisplay()">C</button>
+            <button class="especial" onclick="anexarOperador('±')">±</button>
+            <button class="especial" onclick="anexarOperador('%')">%</button>
             <button class="direita" onclick="anexarOperador('/')">÷</button>
             <button onclick="anexarNumero('7')">7</button>
             <button onclick="anexarNumero('8')">8</button>
@@ -28,7 +28,7 @@
             <button class="direita" onclick="anexarOperador('+')">+</button>
             <button class="zero" onclick="anexarNumero('0')">0</button>
             <button onclick="anexarOperador('.')">.</button>
-            <button class="direita igual" onclick="calcularResultado()">=</button> <!-- Adicione a classe "equals" -->
+            <button class="direita igual" onclick="calcularResultado()">=</button>
         </div>
     </div>
     <script src="script.js"></script>
